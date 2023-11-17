@@ -43,5 +43,8 @@ void main() {
     print(name);
   });
 
-   
+  void mull(int a, int b) =>print("result is ${a * b}");
+  
+
+  mull(10, 20);
 }
