@@ -9,13 +9,13 @@
 //   print(2 + 3);
 // }
 
-// void sumpara(int a, int b) {
-//   print('${a + b}');
-// }
+void sumpara(int a, int b) {
+  print('${a + b}');
+}
 
-// int sumreturn(int a, int b) {
-//   return a + b;
-// }
+int sumreturn(int a, int b) {
+  return a + b;
+}
 
 void main() {
   List<Map<String, dynamic>> student = [
