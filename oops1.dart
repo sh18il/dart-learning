@@ -1,15 +1,15 @@
 void main() {
-  Student arun = Student();
-  arun.printtest();
-  Student mithun = Student();
-  mithun.printtest();
+  Student arun = new Student();
 }
 
 class Student {
-  String test = "testing one";
-  int testing = 0;
-
-  void printtest() {
-    print("test class print function");
+  String Name;
+  String email;
+  List<num> marks;
+//constector name class name  crct obj
+  Student(String Name, String email, List<num> marks) {
+    this.Name = Name;
+    this.email = email;
+    this.marks = marks;
   }
 }
